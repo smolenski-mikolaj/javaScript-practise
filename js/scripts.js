@@ -1,18 +1,10 @@
 var name = prompt('Enter your name');
-alert('Hello, ' + name);
+alert('Hello, ' + name); // Here is the message with username
 console.log('Hello, ' + name); 
 
-var a = 3,
-	b = 2,
-	value;
+/*
+	The function which is above
+	shows in console message:
+	"Hello, |username|"
+*/
 
-value = (a * a) + (2 * a * b) - (b * b);
-console.log('Wynik: ' + value);
-
-if (value > 0) {
-	console.log('Wynik dodatni');
-} else if (value < 0) {
-	console.log('Wynik ujemny');
-} else if (value == 0) {
-	console.log('Wynik równy 0');
-}
