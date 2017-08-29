@@ -14,3 +14,7 @@ if (!isNaN(a) && !isNaN(b)) {
 		console.log('Wynik równy 0');
 	}
 }
+
+if (typeof a === 'string' || typeof b === 'string') {
+		console.log('Jeden z parametrów jest tekstem');
+	}
